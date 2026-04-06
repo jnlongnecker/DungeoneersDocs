@@ -1,0 +1,121 @@
+Activity -> activity
+Combat Procedure -> combat procedure
+Short -> short, Short
+Tag -> tag
+Social Procedure -> social procedure
+Dungeon Procedure -> dungeon procedure
+Average -> average, Average
+Exploration Procedure -> exploration procedure
+Long -> long, Long
+Downtime Procedure -> downtime procedure
+Zone -> zone
+Region -> region
+Mana -> mana
+Hitpoints -> hitpoints, Hitpoints
+Defense -> defense, Defense
+Bushcraft -> bushcraft
+Ambush -> ambush
+Speed -> speed, Speed
+Searching -> searching
+Navigation -> navigation
+Difficulty -> difficulty, Difficulty
+Arts -> arts, Arts
+Invocations -> invocations, Invocations
+Blessings -> blessings, Blessings
+Sleep -> sleep
+Exhaustion -> exhaustion
+Power -> power, Power
+Magic -> magic, Magic
+Talent -> talent, Talent
+Faith -> faith, Faith
+Prowess -> prowess, Prowess
+Control -> control, Control
+Luck -> luck, Luck
+Health -> health, Health
+Creature -> creature, Creature
+Attack -> Attack, attack
+Taunted -> taunted
+Severity -> severity, Severity
+Favor -> favor
+Damage -> damage, Damage
+Downtime -> downtime
+Interact -> Interact
+Rounds -> rounds
+Shield -> shield, Shield
+Attacks -> attacks, Attacks
+Procedure -> procedure
+Bleed -> bleed
+Tile -> tile
+Bruise -> bruise
+Sharp -> sharp
+Recoveries -> recoveries
+Brace -> brace
+Chase Procedure -> chase procedure
+Stamina -> stamina
+Marks -> marks
+Entity -> entity
+Buffs -> buffs
+Combat Speed Order -> combat speed order
+Common Actions -> Common actions
+Movement -> Movement
+Inventory -> inventory
+Object -> object
+Quick -> Quick
+Species -> species
+Status -> status
+Injury -> injury
+Hardness -> Hardness, hardness
+Minor Injury -> minor injury
+Major Injury -> major injury
+Scar -> scar
+Failure Threshold -> failure threshold, Failure threshold
+Rolls -> rolls
+Explosion Threshold -> explosion threshold
+Downtime Boons -> downtime boons
+Vacation -> vacation
+Elements -> elements, Elements
+Natural -> natural
+Wood -> wood
+Dark -> dark
+Air -> air
+Water -> water
+Ground -> ground
+Fire -> fire
+Lightning -> lightning
+Metal -> metal
+Light -> light
+Player Character -> player character
+Equipment -> equipment, Equipment
+Equipment Slots -> equipment slots
+Weapons -> Weapons
+Improvised -> improvised
+Standard -> standard
+Heavy -> heavy
+Ranged -> ranged
+Gear -> Gear
+Skills -> skills, Skills
+Crafting -> crafting
+Marked -> marked
+Passive -> Passive
+Evasive -> evasive
+Lore -> lore
+Alchemy -> alchemy
+Arcana -> arcana
+Harvesting -> harvesting
+Swift -> swift
+Locksmithing -> locksmithing
+Medicine -> medicine
+Field Aid -> Field Aid
+Regen -> regen
+Space -> space
+Map -> map
+Traits -> traits
+Poisoned -> poisoned
+Statistic -> statistic
+Aggregate Defense -> aggregate defense, Aggregate defense
+Damp -> damp
+Burned -> burned
+Cold -> Cold
+Freeze -> freeze
+Forced -> forced
+Targeted Attacks -> targeted attacks

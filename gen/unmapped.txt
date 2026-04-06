@@ -1,0 +1,124 @@
+Activities | 4 instances
+activities | 12 instances
+cooldowns | 3 instances
+recovery | 8 instances
+FT | 19 instances
+creatures | 27 instances
+ambushed | 1 instances
+speedy | 3 instances
+skill | 5 instances
+roll | 24 instances
+total | 8 instances
+projects | 1 instances
+major stat | 1 instances
+round | 28 instances
+encounter | 1 instances
+victory | 2 instances
+victories | 1 instances
+experience | 3 instances
+level up | 2 instances
+feat | 2 instances
+priority | 7 instances
+AP | 12 instances
+stat | 20 instances
+aggregate | 7 instances
+blessing | 3 instances
+Ritual | 30 instances
+leech | 1 instances
+range | 4 instances
+bleeding | 1 instances
+tiles | 10 instances
+Creatures | 2 instances
+success | 2 instances
+hitpoint | 3 instances
+true damage | 4 instances
+thorns | 2 instances
+blind | 2 instances
+ghost | 1 instances
+area | 4 instances
+item | 5 instances
+void-touched | 1 instances
+library credits | 2 instances
+light obstacles | 3 instances
+action | 15 instances
+condition | 1 instances
+targeted | 2 instances
+area of effect | 1 instances
+AoE | 3 instances
+Area of effect | 1 instances
+critical hit | 4 instances
+Targeted | 2 instances
+mark | 5 instances
+body | 2 instances
+limb | 1 instances
+critical | 8 instances
+weakness | 1 instances
+class | 2 instances
+physical | 1 instances
+targeted attack | 4 instances
+priortity | 1 instances
+actions | 7 instances
+cooldown | 11 instances
+uses | 2 instances
+Actions | 7 instances
+Cooldown | 1 instances
+move | 4 instances
+creature's | 1 instances
+combat | 1 instances
+stats | 1 instances
+magic damage | 2 instances
+physical damage | 4 instances
+dying | 1 instances
+objects | 3 instances
+debuff | 1 instances
+equip slot | 1 instances
+scars | 1 instances
+boons | 1 instances
+banes | 1 instances
+wound | 1 instances
+downtime boon | 1 instances
+element | 25 instances
+resistant | 3 instances
+weak | 2 instances
+neutral | 2 instances
+enhanced | 2 instances
+resisted | 1 instances
+resist | 1 instances
+Resistant | 10 instances
+Weak | 10 instances
+entities | 2 instances
+non-player character | 1 instances
+PC | 1 instances
+turn | 4 instances
+equipped | 3 instances
+equipment slot | 1 instances
+Objects | 1 instances
+weapon | 11 instances
+weapon types | 1 instances
+items | 1 instances
+dungeon map | 7 instances
+world map | 4 instances
+ranks | 10 instances
+result | 1 instances
+Aggregate | 1 instances
+Priority | 1 instances
+recall | 4 instances
+stack | 1 instances
+stacks | 1 instances
+zones | 1 instances
+regions | 1 instances
+levels | 1 instances
+voice | 1 instances
+Chorus | 1 instances
+trait | 1 instances
+Boon | 1 instances
+statistics | 1 instances
+AoE attack | 1 instances
+critical threshold | 1 instances
+luck points | 1 instances
+level | 1 instances
+ticks | 1 instances
+Ticks | 14 instances
+precision | 1 instances
+AoE attacks | 1 instances
+Feats | 1 instances
