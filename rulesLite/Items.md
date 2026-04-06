@@ -27,11 +27,12 @@ A `weapon` is a piece of `equipment` that is meant to make `attacks` with. `Weap
 
 ## Weapon Type
 
-One of `improvised`, `light`, `standard`, `polearm`, `heavy`, or `ranged`. Each `weapon type` grants a special `action` that can be used with it and specifies the baseline `damage` that they deal. Whenever you `attack` using the `weapon`, the `damage` is determined in part by the `damage` specified here. These have the following attributes:
+One of `improvised`, `light`, `standard`, `reach`, `heavy`, or `ranged`. Each `weapon type` grants a special `action` that can be used with it and specifies the baseline `damage` that they deal. Whenever you `attack` using the `weapon`, the `damage` is determined in part by the `damage` specified here. These have the following attributes:
 
 ## Improvised
 
 - Damage: major `stat` - 1
+- Wield Slots: 1
 
 Anything being used as a `weapon` that wasn't designed to be a `weapon`. Grants the following `action`:
 
@@ -49,6 +50,7 @@ Roll: `prowess` vs `defense`
 ## Light
 
 - Damage: major `stat` - 1
+- Wield Slots: 1
 
 A smaller, highly maneuverable `weapon`. Grants the following `actions`:
 
@@ -79,6 +81,7 @@ Roll: `prowess` vs `defense`
 ## Standard
 
 - Damage: major `stat`
+- Wield Slots: 1
 
 A typical sized, dangerous `weapon`. Grants the following `arts`:
 
@@ -93,9 +96,10 @@ Roll: `prowess` vs `defense`
 - Success: `Damage` the target
 - Critical: +2 `damage`
 
-## Polearm
+## Reach
 
 - Damage: major `stat`
+- Wield Slots: 2
 
 A larger `weapon` with reach. Grants the following `action`:
 
@@ -113,6 +117,7 @@ Roll: `prowess` vs `defense`
 ## Heavy
 
 - Damage: major `stat` + 1
+- Wield Slots: 2
 
 A large, powerful `weapon` that is slightly slow to swing. Grants the following `actions`:
 
@@ -141,6 +146,7 @@ Roll: `prowess` vs `defense`
 ## Ranged
 
 - Damage: major `stat` - 2
+- Wield Slots: 2
 
 A `weapon` designed to deliver a payload at range. Grants the following `action`:
 
@@ -160,10 +166,6 @@ Roll: `prowess` vs `defense`
 ## Weapon Range
 
 The number of `tiles` from the user the `weapon` can reach.
-
-## Weapon Priority
-
-The bracket of order for an `attack` with the `weapon`. In a `priority` tie, the higher `speed` acts first. Otherwise, the higher `priority` acts first.
 
 ## Weapon Damage
 

@@ -5,6 +5,7 @@ The order you choose to do things doesn't matter, but these are the steps to mak
 - Pick a species
 - Distribute points
 - Pick features
+- Pick starting equipment
 
 # Picking a Species
 
@@ -31,3 +32,7 @@ And 6 points to spend on the following:
 # Picking Features
 
 You'll need to pick features granted to you by your `power`, `talent`, `magic` and `faith`. In addition, you'll need to pick 1 `feat`.
+
+# Picking Starting Equipment
+
+Pick a `weapon` of choice, then spend 50 gold on `items`.

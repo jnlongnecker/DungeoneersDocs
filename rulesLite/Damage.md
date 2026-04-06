@@ -41,4 +41,4 @@ When healed, an `injury` becomes a `scar` and no longer counts as an `injury`. M
 
 # Recoveries
 
-Each `creature` has a number of `recoveries` equal to their `health`. During `downtime`, `recoveries` are used to regain `hitpoints`. Each `recovery` heals `health` `hitpoints`. You may also use a `recovery` to entirely eliminate a `status`.
+Each `creature` has a number of `recoveries` equal to their `health`. During a `procedure`, `recoveries` are used to regain `hitpoints`. Each `recovery` heals `health` `hitpoints`. You may also use a `recovery` to entirely eliminate a `status`.
