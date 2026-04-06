@@ -19,7 +19,7 @@ Start with all `stats` at 0 and `health` at 2. You have 4 points to spend on the
 - ⬜⬜ `magic`
 - ⬜⬜ `faith`
 
-And 7 points to spend on the following:
+And 6 points to spend on the following:
 
 - ⬜⬜ `speed`
 - ⬜⬜ `prowess`

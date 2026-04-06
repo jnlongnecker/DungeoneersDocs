@@ -36,7 +36,7 @@ Your `talent` score determines how many `skills` you have.
 
 # Speed
 
-When `targeted attack` occurs, the `creature` with the higher `speed` makes their `attack` first.
+During a `round`, `creatures` with higher `speed` act first.
 
 # Prowess
 
