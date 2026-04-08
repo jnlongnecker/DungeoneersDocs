@@ -14,8 +14,8 @@ These `arts` must be unlocked explicitly, meeting any necessary prerequisites.
 
 Roll: `prowess` vs `defense`
 
-- Success: Inflict `taunted` 1 (1d6 `aggregate`)
-- Critical: `Severity` +1
+- Success: Inflict `taunted` 1d6
+- Critical: +1d6 `aggregate`
 
 ## Heavy Strike
 
@@ -41,12 +41,12 @@ Use an `attack` twice, but your `base damage` is halved for each.
 - Range: 1
 - Area: Single
 
-If using a `shield`, also inflict `bruise` 1.
+If using a `shield`, increase `aggregate` by 1d6
 
 Roll: `prowess` vs `defense`
 
-- Success: 1 `damage`
-- Critical: Inflict `taunt` 1
+- Success: 1 `damage`; inflict `bruise` 1d6
+- Critical: +1d6 `aggregate`
 
 ## Charge
 
@@ -79,9 +79,9 @@ Roll: `prowess` vs `defense`
 - Area: Single
 - Cooldown: 5
 
-Roll: `control` vs `defense`
+Roll: `prowess` vs `defense`
 
-- Success: Nothing happens
+- Success: Deal `damage` -2
 - Critical: `Creature` drops a `weapon` they have `equipped`, if possible
 
 ## Rally
@@ -91,9 +91,9 @@ Roll: `control` vs `defense`
 - Area: Aura 4
 - Cooldown: 3
 
-Roll: `prowess` vs 10
+Roll: `control` vs 10
 
-- Success: Grant 2 `shield` to `creatures` of your choice
+- Success: Grant `shield` 2 to `creatures` of your choice
 - Critical: +1 `shield`
 
 ## War Cry
@@ -103,10 +103,10 @@ Roll: `prowess` vs 10
 - Area: Aura 4
 - Cooldown: 1
 
-Roll: `prowess` vs `defense`
+Roll: `control` vs `defense`
 
-- Success: Inflict `fear` 1 (`aggregate` 1d6)
-- Critical: `Severity` +1
+- Success: Inflict `fear` 1d6
+- Critical: +1d6 `aggregate`
 
 ## Trip
 
@@ -120,15 +120,6 @@ Roll: `prowess` vs `defense`
 - Success: Inflict `prone` 1
 - Critical: `Damage` +2
 
-## Puncture
-
-- Tags: `Attack`, `Inherit`
-- Range: Self
-- Area: Single
-- Cooldown: 3
-
-Use an `attack`. On a `critical`, targets `shield` is reduced to 0.
-
 ## Armor Pierce
 
 - Tags: `Attack`, `Inherit`
@@ -138,17 +129,27 @@ Use an `attack`. On a `critical`, targets `shield` is reduced to 0.
 
 Use an `attack`. The `damage` ignores `shield`
 
+## Shove
+
+- Tags: `Attack`
+- Range: 1
+- Area: Single
+
+Roll: `prowess` vs `defense`
+
+- Success: Inflict `forced` 1d6
+- Critical: +1d6 `aggregate`
+
 ## Staggaring Strike
 
 - Tags: `Attack`
 - Range: 1
 - Area: Single
-- Cooldown: 1
 
 Roll: `prowess` vs `defense`
 
-- Success: `Damage` the target
-- Critical: Inflict `forced` 1
+- Success: Deal `damage`
+- Critical: Inflict `forced` 1d6
 
 ## Parry
 
@@ -168,7 +169,7 @@ Gain `defense` `shield` for this `round`.
 
 Roll: `prowess` vs `defense`
 
-- Success: `Damage` the target
+- Success: Deal `damage`
 - Critical: + `damage` you've taken this `round`
 
 ## Spin Attack
@@ -179,5 +180,13 @@ Roll: `prowess` vs `defense`
 
 Roll: `control` vs `defense`
 
-- Success: `Damage` the target(s) (-1 `damage`)
+- Success: Deal `damage` -1
 - Critical: +2 `damage`
+
+## Throttle
+
+- Tags: `Attack`, `Inherit`
+- Range: Self
+- Area: Single
+
+Use an `attack`. The `damage` lowers `aggregate defense` instead of `hitpoints`.

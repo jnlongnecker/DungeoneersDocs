@@ -1,6 +1,16 @@
 # Aggregates
 
-If an `attack` has an `aggregate`, roll the `aggregate` against the targets `aggregate defense`. On a failure, reduce `aggregate defense` by 1. On a success, reset `aggregate defense` to its max and the corresponding `status` is inflicted.
+If an `attack` has an `aggregate`, roll the `aggregate` against the targets `aggregate defense`.
+
+Aggregate Roll: [`aggregate`] vs `aggregate defense`
+
+- Failure: Reduce `aggregate defense` by 1
+- Success: Inflict the `status` at `severity` 1
+- Critical: Increase `severity` by 1
+
+## Aggregate Rolls
+
+`Aggregate rolls` are slightly different than normal `rolls`. A `failure` occurs when the `total` is less than the `aggregate defense`. A `success` occurs when the `total` meets or beats the `aggregate defense`. A `critical` occurs when the `total` meets or beats each multiple of the `aggregate defense`.
 
 ## Aggregate Defense
 

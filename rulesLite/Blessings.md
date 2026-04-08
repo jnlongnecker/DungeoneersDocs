@@ -8,7 +8,7 @@ You gain `favor` with a god if you do things to show your worship & devotion. Yo
 
 ## Prayer
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -16,7 +16,7 @@ You make a genuine, bespoke prayer to a god at a shrine, temple, statue, or othe
 
 ## Make Offering
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -28,7 +28,7 @@ Values weapons of fallen foes, treasure taken in conquest, and armor that has su
 
 ## Dirge of a Worthy Combatant
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -36,7 +36,7 @@ You perform a ritual to offer the corpse of a powerful, fallen foe. You must hav
 
 ## Crimson Offering
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -50,7 +50,6 @@ You partake in the ritual consumption of the blood of your foes. You bleed a `cr
 - Tags: `Interact`
 - Range: Self
 - Area: Single
-- Cost: 1 `AP`
 
 You enter a fury for `faith` `rounds`. During this time, you forfeit all `shield` and in exchange, you gain 2 `speed` and deal 1 additional `damage` per 3 `hitpoints` lost.
 
@@ -60,9 +59,9 @@ You enter a fury for `faith` `rounds`. During this time, you forfeit all `shield
 - Tags: `Interact`
 - Range: Self
 - Area: Single
-- Cost: 2 `AP`, 1 `mana`
+- Cost: 1 `mana`
 
-Your `attacks` inflict `leech` 1 for the remainder of the `procedure`.
+Your `attacks` inflict `leech` 1d6 for the remainder of the `procedure`.
 
 ## Bloodletter
 
@@ -70,9 +69,9 @@ Your `attacks` inflict `leech` 1 for the remainder of the `procedure`.
 - Tags: `Interact`
 - Range: Self
 - Area: Single
-- Cost: 1 `AP`, 2 `mana`
+- Cost: 2 `mana`
 
-Your `attacks` inflict `bleed` 1 for the remainder of the `procedure`.
+Your `attacks` inflict `bleed` 1d6 for the remainder of the `procedure`.
 
 ## Blood Spike
 
@@ -80,29 +79,29 @@ Your `attacks` inflict `bleed` 1 for the remainder of the `procedure`.
 - Tags: `Attack`
 - Range: 3
 - Area: Single
-- Cost: 1 `AP`, 1 `mana`
+- Cost: 1 `mana`
 
 Pick a target within `range` 4 from a `creature` with blood in `range`. The `creature` the `attack` uses takes 2 `damage`.
 
 Roll: `prowess` vs `defense`
 
-- Success: Deal `damage` (major `stat` - 1)
-- Critical: Inflict `bleed` 1 to both `creatures`
+- Success: Deal `damage` -1
+- Critical: Inflict `bleed` 1d6 to both `creatures`
 
 ## Blood Burst
 
 - Prerequisite: 10 `favor`
 - Tags: `Attack`
 - Range: 5
-- Area: Single
-- Cost: 1 `AP`, 5 `mana`
+- Area: Circle 3
+- Cost: 5 `mana`
 
 Target a `bleeding` `creature`
 
 Roll: `control` vs 10
 
-- Success: Blood explodes in a circle (3 radius), dealing `damage` (major `stat`)
-- Critical: If the `creature` occupies multiple `tiles`, the explosion occurs from an additional `tile`
+- Success: Deal `damage`
+- Critical: If the `creature` occupies multiple `tiles`, an additional explosion occurs from a different occupied `tile`
 
 ## Exsanguinate
 
@@ -110,27 +109,25 @@ Roll: `control` vs 10
 - Tags: `Attack`
 - Range: 3
 - Area: Single
-- Cost: 3 `AP`, 3 `mana`
+- Cost: 3 `mana`
 
 Roll: `control` vs `defense`
 
-- Success: Deal `damage` (major `stat` - 2), and heal that number of `hitpoints`
-- Critical: Inflict `bleed` 1
+- Success: Deal `damage` -2; heal that number of `hitpoints`
+- Critical: Inflict `bleed` 1d6
 
 `Creatures` killed by this leave no usable corpse.
 
 ## Fury
 
 - Prerequisite: 10 `favor`
-- Tags: `Attack`
-- Range: 2
+- Tags: `Attack`, `Inherit`
+- Range: Self
 - Area: Single
-- Cost: 1 `AP`, 2 `mana`
+- Cooldown: 20
+- Cost: 4 `mana`
 
-Roll: `prowess` vs `defense`
-
-- Success: Deal `damage`(1/2 major `stat`), hitting twice
-- Critical: Hit an additional time
+Use an `attack` twice. Your `base damage` is halved. On each `critical`, you `attack` an additional time
 
 ## Blade Storm
 
@@ -138,11 +135,12 @@ Roll: `prowess` vs `defense`
 - Tags: `Attack`
 - Range: `faith`
 - Area: Single
-- Cost: 3 `AP`, 5 `mana`
+- Cooldown: 20
+- Cost: 5 `mana`
 
 Roll: `prowess` vs 5
 
-- Success: Deal `damage` (major `stat`) and land adjacent to the target. Regain 1 `AP` if this kills the target
+- Success: Deal `damage` and land adjacent to the target. If this kills the target, make this `action` again
 - Critical: Trigger the `success` again, selecting a new target in `range` from the new location
 
 ## Crimson Baptism
@@ -151,11 +149,12 @@ Roll: `prowess` vs 5
 - Tags: `Attack`
 - Range: 2
 - Area: Single
-- Cost: 3 `AP`, 5 `mana`
+- Cooldown: 20
+- Cost: 5 `mana`
 
 Roll: `faith` vs `hitpoints`
 
-- Success: Inflict `bleed` (`faith` `severity`, 1d6 `aggregate`)
+- Success: Inflict `bleed` `faith`d6
 - Critical: Target dies and you regain their `hitpoints`
 
 # God of Death
@@ -187,7 +186,7 @@ Values anything. When making an offering, roll 1d6. On a 4 or higher, your offer
 
 ## Sow Confusion
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -195,7 +194,7 @@ You defile an orderly place with the element of chaos. You change labels, scatte
 
 ## O Fickle Faith
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -218,7 +217,7 @@ Values cursed things, forgotten relics, and all things touched by the void.
 
 ## Blackout
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -226,7 +225,7 @@ You perform a ritual to envelop a bright location in the purest dark. Upon compl
 
 ## Void Communion
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Circle (6 radius)
 
@@ -240,7 +239,7 @@ Values light sources, once cursed items, and sun-dried fruits
 
 ## Purify the Darkness
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -248,7 +247,7 @@ At the site of an unspeakable evil or foul conduct, you perform a purification r
 
 ## Beacon in the Dark
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -262,7 +261,7 @@ Values seeds, fruits & vegetables, and bone meal
 
 ## Foster the Youth
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -270,7 +269,7 @@ You perform a fertility ritual, centered on a fragile form of new life (seed in 
 
 ## Expedited Recovery
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -284,7 +283,7 @@ Values prayer beads, murder weapons, and stolen goods
 
 ## Save a Soul
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -292,7 +291,7 @@ You perform a ritual of divine redemption on a `creature` that has committed a f
 
 ## Emissary of Peace
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -306,7 +305,7 @@ Values law books, gavels, and chains that have held criminals
 
 ## Pass Judgement
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -314,7 +313,7 @@ You perform a ritual of judgement on a `creature` that has been captured. Upon c
 
 ## Smite the Sinner
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -330,7 +329,7 @@ Values books, scrolls, and artifacts
 
 ## Donation to the Communal Library
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -338,7 +337,7 @@ You perform a ritual of sacrificial knowledge to offer information to the great 
 
 ## Checkout from the Communal Library
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -352,7 +351,7 @@ Values things built by the offerer and used for its original purpose
 
 ## Masterwork Study
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -360,7 +359,7 @@ You perform a ritual of study by using a masterwork item. Doing so imprints the 
 
 ## Impromptu Workshop
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -374,7 +373,7 @@ Values flowers, trees, and overgrowth
 
 ## Grove
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -382,7 +381,7 @@ You perform a communion ritual in a place untouched by civilization. You mark it
 
 ## Guardian
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -396,7 +395,7 @@ Values shells, sea foam, and brine
 
 ## Embrace the Storm
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -404,7 +403,7 @@ You perform a reverence ritual in the middle of a storm. In a rain, snow, or thu
 
 ## Shelter
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -420,7 +419,7 @@ Instead of offerings & prayers, you meditate using incense and any item(s) you f
 
 ## Spiritual Connection
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -428,7 +427,7 @@ You immerse yourself in a moment of peace in an attempt to connect with yourself
 
 ## Mind and Body
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -442,7 +441,7 @@ You practice no faith and instead turn to inward yourself. You do not pray or pr
 
 ## Reflection
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 
@@ -450,7 +449,7 @@ You take a moment to deeply reflect on yourself, your emotions, and your betterm
 
 ## Insight
 
-- Tags: `Ritual`, `Short`
+- Tags: `Activity`, `Ritual`, `Short`
 - Range: Self
 - Area: Single
 

@@ -118,7 +118,7 @@ You gain `defense` `shield`.
 - Range: 1
 - Area: Single
 
-You perform some interaction with something in range. This can be one of many things; e.g. opening a door, pulling a lever, using an `item` in your `inventory`, retrieving an `item` from a container, picking up an `object`, or accepting/handing off something to someone else.
+You perform some interaction with something in range. This can be one of many things; e.g. opening a door, pulling a lever, retrieving an `item` from a container, picking up an `object`, or accepting/handing off something to someone else.
 
 ## Help
 

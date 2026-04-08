@@ -63,7 +63,7 @@ Increase `severity` by 1.
 - Tags: `Attack`
 - Cost: 2
 
-Add 1 to `aggregate` `roll`.
+Add 1d6 to `aggregate` `roll`.
 
 ## Carve
 

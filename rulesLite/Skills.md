@@ -18,8 +18,8 @@ Used to create mundane crafts, like weapons, armor, and jewelry.
 
 Roll: `crafting` vs `defense` (`FT` 1)
 
-- Success: Inflict `marked` (`aggregate` 1d6 + `ranks`, `ranks` `severity`)
-- Critical: `Aggregate` +2
+- Success: Inflict `marked` `ranks`d6
+- Critical: +1d6 `aggregate`
 
 ### Reinforcer (Rank 2)
 
@@ -35,8 +35,8 @@ Whenever you would gain `shield`, you gain `ranks` additional `shield`.
 
 Roll: `crafting` vs 15
 
-- Success: Inflict `sharp` (2 `severity`)
-- Critical: `Severity` +1
+- Success: Inflict `sharp` 2
+- Critical: +1 `severity`
 
 ## Bushcraft
 
@@ -54,7 +54,7 @@ Only usable if no hostile `creatures` are adjacent.
 Roll: `bushcraft` vs 15 (`FT` 1)
 
 - Success: Gain `evasive` (`ranks` `severity`)
-- Critical: `Severity` +1
+- Critical: +1 `severity`
 
 ### Jungler (Rank 2)
 
@@ -81,7 +81,7 @@ Used for general knowledge of the world.
 - Range: 20
 - Area: Single
 
-Roll: `lore` vs 5
+Roll: `lore` vs `difficulty`
 
 - Success: Learn nothing
 - Critical: Learn one thing of your choice from the following categories:
@@ -159,7 +159,7 @@ If you don't have enough `mana`, your target only gains as much as you have. You
 
 - Tags: `Passive`
 
-Your `attacks` steal 1 `mana` from your target.
+Your `attacks` steal 1 `mana` from your target (unless they `fail`).
 
 ### Foretell (Rank 3)
 
@@ -170,7 +170,7 @@ Your `attacks` steal 1 `mana` from your target.
 Roll: `arcana` vs 8
 
 - Success: You gain 1 `mana` at the end of the next `round`
-- Critical: You gain 3 `mana` at the end of the next `round`
+- Critical: +3 `mana` gained at the end of the next `round`
 
 ## Navigation
 
@@ -179,7 +179,7 @@ Used to accurately travel long distances and protect from getting lost.
 ### Declare the Path (Rank 1)
 
 - Tags: `Movement`
-- Range: 0
+- Range: Self
 - Area: Aura 2
 
 Roll: `navigation` vs 15
@@ -213,8 +213,8 @@ Used to harvest natural resources, like fish, ore, and `creature` parts.
 
 Roll: `harvesting` vs `defense`
 
-- Success: `Damage` the target (-1 `damage`); inflict `bruise` 1 (`aggregate` 1d6)
-- Critical: `Severity` +1
+- Success: Deal `damage` -1; inflict `bruise` 1d6
+- Critical: +1d6 `aggregate`
 
 ### Crippler (Rank 2)
 
@@ -231,8 +231,8 @@ When targeting a `mark` other than `body`, the `FT` raises by 1 fewer.
 
 Roll: `harvesting` vs `defense`
 
-- Success: Inflict `bruise` 3
-- Critical: `Severity` +2
+- Success: Inflict `bruise` 2d6
+- Critical: +2d6 `aggregate`
 
 ## Searching
 
@@ -295,7 +295,7 @@ You can move through the space of hostile `creatures`.
 Roll: `locksmithing` vs `defense`
 
 - Success: Nothing happens
-- Critical: Acquire 1 `item` the `creature` had
+- Critical: Acquire 1 `item` the `creature` had (prioritizing `unequipped` `items`)
 
 ## Medicine
 
@@ -319,7 +319,7 @@ Roll: `medicine` vs 10
 When using `Field Aid`, you may use these effects instead:
 
 - Success: Inflict `regen` 3
-- Critical: `Severity` +1
+- Critical: +1 `severity`
 
 ### Patch Up (Rank 3)
 
@@ -328,4 +328,4 @@ When using `Field Aid`, you may use these effects instead:
 - Area: Single
 - Cooldown: 10
 
-Roll for a total using `medicine`. You heal that number of `hitpoints` to the target and they expend 1 `recovery`.
+Roll for a `total` using `medicine`. The target heals that number of `hitpoints`.
