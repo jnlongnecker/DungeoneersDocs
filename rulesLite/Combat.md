@@ -50,38 +50,6 @@ Some `actions` have to have their `cooldown` reset before they can be used again
 
 When you deal `damage` to a `creature` from a `targeted attack`, draw a line between yourself and one of your allies. If this line intersects your target, it takes 2 additional `damage`.
 
-# Moving
-
-When you `move`, some `tiles` are difficult in order to move into. In these instances, `roll` for a `total` using `speed`. If you `roll` below the target for the terrain, moving into the `tile` acts as if you moved 2 `tiles`. You make the `roll` when starting your `move`; it applies for all terrain you move into for this `round`.
-
-| Terrain Type   | Target |
-| -------------- | ------ |
-| Normal         | 0      |
-| Light Obstacle | 5      |
-| Water          | 5      |
-| Wall           | 10     |
-| Ceiling        | 15     |
-
-## Movement Type
-
-When you `move`, you choose a `movement type` to use.
-
-### Typical
-
-The default `movement type`. Covers cases of overland, water, and wall/ceiling travel.
-
-### Burrowing
-
-Movement through a surface. In order to do so, your `weapon` must be capable of overcoming the `hardness` of the surface (most commonly the ground) before factoring any bonuses from `criticals`. You may end your `move` underground and you may move at half distance in order to leave behind a hole that can be followed.
-
-### Flight
-
-Movement through the air via wings or similar propulsion. Must be space for your propulsion to occur. When harmed, roll 1d6. On a 1, you `fall`.
-
-### Levitation
-
-Magically controlled movement through the air.
-
 # Common Actions
 
 `Common actions` are known by all `creatures`.
@@ -92,7 +60,7 @@ Magically controlled movement through the air.
 - Range: Self
 - Area: Single
 
-You move 1 `tile`.
+You move up to 3 `tiles`.
 
 ## Leap
 

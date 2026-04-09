@@ -42,9 +42,9 @@ You perform a ritual to offer the corpse of a powerful, fallen foe. You must hav
 
 You partake in the ritual consumption of the blood of your foes. You bleed a `creature` you have killed recently and drink its blood in ritual. Until the end of your next `downtime`, you deal 1 additional `damage`.
 
----
+## Blessings
 
-## Berserk
+### Berserk
 
 - Prerequisite: 5 `favor`
 - Tags: `Interact`
@@ -53,7 +53,7 @@ You partake in the ritual consumption of the blood of your foes. You bleed a `cr
 
 You enter a fury for `faith` `rounds`. During this time, you forfeit all `shield` and in exchange, you gain 2 `speed` and deal 1 additional `damage` per 3 `hitpoints` lost.
 
-## Bloodthirst
+### Bloodthirst
 
 - Prerequisite: 5 `favor`
 - Tags: `Interact`
@@ -63,7 +63,7 @@ You enter a fury for `faith` `rounds`. During this time, you forfeit all `shield
 
 Your `attacks` inflict `leech` 1d6 for the remainder of the `procedure`.
 
-## Bloodletter
+### Bloodletter
 
 - Prerequisite: 5 `favor`
 - Tags: `Interact`
@@ -73,7 +73,7 @@ Your `attacks` inflict `leech` 1d6 for the remainder of the `procedure`.
 
 Your `attacks` inflict `bleed` 1d6 for the remainder of the `procedure`.
 
-## Blood Spike
+### Blood Spike
 
 - Prerequisite: 5 `favor`
 - Tags: `Attack`
@@ -88,7 +88,7 @@ Roll: `prowess` vs `defense`
 - Success: Deal `damage` -1
 - Critical: Inflict `bleed` 1d6 to both `creatures`
 
-## Blood Burst
+### Blood Burst
 
 - Prerequisite: 10 `favor`
 - Tags: `Attack`
@@ -103,7 +103,7 @@ Roll: `control` vs 10
 - Success: Deal `damage`
 - Critical: If the `creature` occupies multiple `tiles`, an additional explosion occurs from a different occupied `tile`
 
-## Exsanguinate
+### Exsanguinate
 
 - Prerequisite: 10 `favor`
 - Tags: `Attack`
@@ -118,7 +118,7 @@ Roll: `control` vs `defense`
 
 `Creatures` killed by this leave no usable corpse.
 
-## Fury
+### Fury
 
 - Prerequisite: 10 `favor`
 - Tags: `Attack`, `Inherit`
@@ -129,7 +129,7 @@ Roll: `control` vs `defense`
 
 Use an `attack` twice. Your `base damage` is halved. On each `critical`, you `attack` an additional time
 
-## Blade Storm
+### Blade Storm
 
 - Prerequisite: 15 `favor`
 - Tags: `Attack`
@@ -143,7 +143,7 @@ Roll: `prowess` vs 5
 - Success: Deal `damage` and land adjacent to the target. If this kills the target, make this `action` again
 - Critical: Trigger the `success` again, selecting a new target in `range` from the new location
 
-## Crimson Baptism
+### Crimson Baptism
 
 - Prerequisite: 15 `favor`
 - Tags: `Attack`
@@ -174,11 +174,115 @@ You perform a ritual sacrament over the recent death of a group (i.e. more than 
 - Tags: `Ritual`, `Short`
 - Range: Self
 - Area: Single
+- Cost: 2 `mana`
+
+You perform this rite over the corpse of a `creature`. You compel any remaining mana to eternally serve as a `shadow servant`. You have a limit of `faith` `shadow servants` to imbue in this way.
+
+You can instantly, trivially, and at will, recall the `shadow servants` into your shadow at the start of a `round`. Unless you will it otherwise, they automatically step out of your shadow at the start of a `combat procedure` or `chase procedure`. Otherwise, it is an `action` to release any number of them from your shadow.
+
+## Blessings
+
+### Path to the Grave
+
+- Prerequisite: 5 `favor`
+- Tags: `Attack`
+- Range: 3
+- Area: Single
+- Cost: 1 `mana`
+
+Roll: `control` vs `defense`
+
+- Success: Inflict `decay` 1d6
+- Critical: +1d6 `aggregate`
+
+### Death Hungers
+
+- Prerequisite: 5 `favor`
+- Tags: `Interact`
+- Range: Self
+- Area: Single
+- Cost: 1 `mana`
+
+You and 1 `creature` of your choice you can see gain `decay` 1 at the start of every `round` of this `procedure`.
+
+### Bonelegion
+
+- Prerequisite: 5 `favor`
+- Tags: `Interact`, `Quick`
+- Range: Self
+- Area: Single
+- Cost: 2 `mana`
+
+You compel all `shadow servants` under your control to `move` 1 `tile` immediately.
+
+### Bonesavior
+
+- Prerequisite: 5 `favor`
+- Tags: `Interact`, `Quick`
+- Range: Self
+- Area: Single
+- Cost: 2 `mana`
+
+You grant all `shadow servants` under your control `faith` `shield`
+
+### Bonekeeper
+
+- Prerequisites: 10 `favor`
+- Tags: `Interact`, `Quick`
+- Range: Self
+- Area: Single
+- Cost: 3 `mana`
+
+You grant all `shadow servants` under your control a +2 bonus to `base damage` for this `round`
+
+### Mortal Infliction
+
+- Prerequisite: 10 `favor`
+- Tags: `Passive`
+- Cost: 1 `mana`
+
+Your `statuses` ignore `undead` `immunities`.
+
+### Force of Decay
+
+- Prerequisites: 10 `favor`
+- Tags: `Attack`
+- Range: 4
+- Area: Single
+- Cooldown: 3
+- Cost: 2 `mana`
+
+Select a `creature` with `decay`.
+
+Roll: `prowess` vs `defense`
+
+- Success: Inflict `decay` 1; trigger `decay` `damage`
+- Critical: +1 `decay`
+
+### Wave of Decay
+
+- Prerequisites: 15 `favor`
+- Tags: `Attack`
+- Range: Self
+- Area: Cone `faith`
+- Cooldown: 10
 - Cost: 5 `mana`
 
-You perform this rite over the remains of a `creature`. You compel their bones into service, creating a skeleton at your command. You have a limit of `faith` skeletons to imbue in this way.
+Roll: `control` vs `defense`
 
----
+- Success: Deal 1 `damage`; inflict `faith` `decay`. Deal `faith` `damage` instead if target has `decay`
+- Critical: +2 `damage`
+
+### Bonemeal
+
+- Prerequisites: 15 `favor`
+- Tags: `Interact`
+- Range: Self
+- Area: Single
+- Cooldown: 20
+- Cost: Varies
+
+Per `mana` you spend, restore `faith` `hitpoints` to one `shadow servant` under your control.
 
 # God of Chaos
 
@@ -209,7 +313,25 @@ You gain a bane and a boon from the following table. Roll 1d6 for each to determ
 | Regain 1 `recovery`                                        | Lose 1 `recovery`                                           | 5    |
 | Gain `ghost` 1 at the start of the next `combat procedure` | Nothing happens                                             | 6    |
 
----
+## Blessings
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 10
+
+### Favor 10
+
+### Favor 10
+
+### Favor 15
+
+### Favor 15
 
 # God of Darkness
 
@@ -231,7 +353,25 @@ You perform a ritual to envelop a bright location in the purest dark. Upon compl
 
 In a place of pure darkness, you may perform this ritual. You send yourself and everything in the `area` to the void for a moment. You may exchange 5 `hitpoints` to ask about something that came with you to the void, or to let an `item` in your possession to become `void-touched`.
 
----
+## Blessings
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 10
+
+### Favor 10
+
+### Favor 10
+
+### Favor 15
+
+### Favor 15
 
 # God of Light
 
@@ -253,7 +393,25 @@ At the site of an unspeakable evil or foul conduct, you perform a purification r
 
 You perform an illumination ritual, causing you to shed light for 1 hour.
 
----
+## Blessings
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 10
+
+### Favor 10
+
+### Favor 10
+
+### Favor 15
+
+### Favor 15
 
 # God of Life
 
@@ -275,7 +433,25 @@ You perform a fertility ritual, centered on a fragile form of new life (seed in 
 
 Once per day, you may perform a ritual of vitality. All `creatures` within the same `zone` regain `faith` (your `faith`) `hitpoints` and may expend up to 2 `recoveries`.
 
----
+## Blessings
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 10
+
+### Favor 10
+
+### Favor 10
+
+### Favor 15
+
+### Favor 15
 
 # God of Redemption
 
@@ -297,7 +473,25 @@ You perform a ritual of divine redemption on a `creature` that has committed a f
 
 You perform a ritual of peace, marking yourself as a peacful individual. All `creatures` you meet for the remainder of the day will innately understand this about you and act accordingly. Should you or your allies violate this covenant and do harm to those who are not harming you, you will lose 10 `favor`.
 
----
+## Blessings
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 10
+
+### Favor 10
+
+### Favor 10
+
+### Favor 15
+
+### Favor 15
 
 # God of Justice
 
@@ -319,7 +513,25 @@ You perform a ritual of judgement on a `creature` that has been captured. Upon c
 
 You perform a ritual of retribution. You gain 3 `thorns` until the end of the next `combat procedure`.
 
----
+## Blessings
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 10
+
+### Favor 10
+
+### Favor 10
+
+### Favor 15
+
+### Favor 15
 
 ---
 
@@ -343,7 +555,25 @@ You perform a ritual of sacrificial knowledge to offer information to the great 
 
 You perform a ritual of knowledge retrieval from the great library. You must exchange `library credits` or `favor` in exchange for the knowledge you seek; between 0-5 depending on how rare the knowledge is. If the knowledge has not been checked into the library, it will not be available.
 
----
+## Blessings
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 10
+
+### Favor 10
+
+### Favor 10
+
+### Favor 15
+
+### Favor 15
 
 # God of Crafts
 
@@ -365,7 +595,25 @@ You perform a ritual of study by using a masterwork item. Doing so imprints the 
 
 You perform a ritual to turn the `zone` you are in into a makeshift workshop. All tools you need for your craft can be found here. This effect ends when you leave the `zone`.
 
----
+## Blessings
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 10
+
+### Favor 10
+
+### Favor 10
+
+### Favor 15
+
+### Favor 15
 
 # God of Nature
 
@@ -387,7 +635,25 @@ You perform a communion ritual in a place untouched by civilization. You mark it
 
 You perform a protection ritual to mark yourself as a friend to nature. Animals will recognize your benevolence and plants will not impede your progress for the remainder of the day. You are not hindered by natural `light obstacles`.
 
----
+## Blessings
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 10
+
+### Favor 10
+
+### Favor 10
+
+### Favor 15
+
+### Favor 15
 
 # God of Storms
 
@@ -409,7 +675,25 @@ You perform a reverence ritual in the middle of a storm. In a rain, snow, or thu
 
 You perform a ritual of protection from the elements. For an entire day after the completion of the ritual, the `zone` your performed this ritual in is protected from any weather or extreme temperatures.
 
----
+## Blessings
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 10
+
+### Favor 10
+
+### Favor 10
+
+### Favor 15
+
+### Favor 15
 
 ---
 
@@ -433,7 +717,25 @@ You immerse yourself in a moment of peace in an attempt to connect with yourself
 
 You focus your spirituality and hone your body and mind as one. You gain `magic` `mana`.
 
----
+## Blessings
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 10
+
+### Favor 10
+
+### Favor 10
+
+### Favor 15
+
+### Favor 15
 
 # Atheism
 
@@ -454,3 +756,23 @@ You take a moment to deeply reflect on yourself, your emotions, and your betterm
 - Area: Single
 
 You exert your command over your learnings in a moment of focus. You gain `brace` 1 until the end of the next `combat procedure`.
+
+## Blessings
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 5
+
+### Favor 10
+
+### Favor 10
+
+### Favor 10
+
+### Favor 15
+
+### Favor 15

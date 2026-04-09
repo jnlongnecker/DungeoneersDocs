@@ -66,7 +66,7 @@ The `severity` of a `status` is a number representing how bad the `status` is. E
 
 ## Tangled
 
-`Creature` is caught in a tangle, causing them to be unable to move. Cured by becoming `forced`. `Ticks`.
+`Creature` is caught in a tangle, causing them to be unable to move. Cured by becoming `forced`.
 
 ## Poisoned
 
@@ -90,9 +90,17 @@ The `severity` of a `status` is a number representing how bad the `status` is. E
 
 ## Marked
 
-`Attacks` against you have their `FT` reduced by 1 and deal 1 additional `damage`. `Ticks`.
+`Attacks` against you have their `FT` reduced by 1 and deal 1 additional `damage`.
+
+## Decay
+
+All `damage` is increased by `severity`.
 
 # Buffs
+
+## Ghost
+
+You take no `physical damage`. `Ticks`.
 
 ## Brace
 

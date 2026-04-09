@@ -135,6 +135,11 @@ You copy a `voice` `action` that was performed earlier in the `round`. The `FT` 
 
 You gain a `burrowing` `movement type`. You have claws that act as an `improvised` `weapon`, but deal an additional 5 `damage` to `objects`.
 
+### Burrowing
+
+- Uses: `Prowess`
+- Cooldown: 1
+
 ## Warts
 
 - Tags: `Boon`
@@ -145,7 +150,7 @@ You start every `round` with 1 `shield` and gain 1 additional `shield` from all 
 
 - Tags: `Boon`
 
-You deal 2 additional `damage` with `attacks` that have a `range` of 2 or fewer.
+You deal 2 additional `damage` with `attacks` that have a `range` of 1 or 2.
 
 ## Intimidating
 
@@ -163,7 +168,7 @@ When you inflict `fear`, your `aggregate` increases by 1d6.
 
 - Tags: `Boon`
 
-When you `leap`, you may `move` your choice of up to 3, `power`, or `speed` `tiles`.
+When you `move` using your `jump` `movement type`, you can move an additional 2 `tiles`.
 
 ## Bad Climber
 
@@ -181,7 +186,7 @@ When you `move` into a `tile` of water, the `target` is increased by 5.
 
 - Tags: `Bane`
 
-When you `leap`, you may `move` only up to 2 `tiles`.
+When you `move` using your `jump` `movement type`, the `tiles` you can move is reduced by 2.
 
 ## Obvious Vein
 
