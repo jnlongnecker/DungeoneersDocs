@@ -1,28 +1,12 @@
-# Aggregates
-
-If an `attack` has an `aggregate`, roll the `aggregate` against the targets `aggregate defense`.
-
-Aggregate Roll: [`aggregate`] vs `aggregate defense`
-
-- Failure: Reduce `aggregate defense` by 1
-- Success: Inflict the `status` at `severity` 1
-- Critical: Increase `severity` by 1
+# Status Damage
 
 ## Aggregate Rolls
 
 `Aggregate rolls` are slightly different than normal `rolls`. A `failure` occurs when the `total` is less than the `aggregate defense`. A `success` occurs when the `total` meets or beats the `aggregate defense`. A `critical` occurs when the `total` meets or beats each multiple of the `aggregate defense`.
 
-## Aggregate Defense
+## Status Defense
 
-A `creatures` max `aggregate defense` is equal to their `defense`, unless boosted. `Aggregate defense` cannot fall below 0.
-
-## Aggregate Resistance
-
-If a `creature` is `resistant` to a `status`, its `aggregate defense` is always treated to be at max.
-
-## Aggregate Weakness
-
-If a `creature` is `weak` to a `status`, its `aggregate defense` is always treated to be at 0.
+A `creatures` max `status defense` is equal to their `level`, unless boosted. `Aggregate defense` cannot fall below 0.
 
 # Status
 
@@ -124,4 +108,8 @@ Gain 1 `speed` per `severity`. `Ticks`.
 
 ## Camoflauged
 
-Until you `move` or `attack`, nothing can see you. `Ticks` when you `move`, `attack`, or are `damaged`.
+Until you `move` or `attack`, nothing can see you. `Ticks` when you `move`, `attack`, or are `wounded`.
+
+## Silenced
+
+You cannot activate any `action` with the `voice` `tag`. `Ticks`.

@@ -4,6 +4,13 @@ Dungeoneers is meant to be playable as not just a TTRPG, but also as a video gam
 
 The goal of the game is to produce a heroic, high fantasy experience that allows for players to create and play the character within their mind's eye without constantly fighting the rule system to allow that character to exist. The player characters (dungeoneers) are powerful, competent explorers that deal with threats far greater than the common man is equipped to deal with. This goal has major effects on many core parts of the game.
 
+Players will engage with a logical world through an abstraction of various procedures. The rules are in place to guide ideation of what is and isn't possible in a fictional world where physics still exists but the magical is very real. Second-to-second gameplay is focused on adventure, and adventure is classified into the following components:
+
+- **Exploration:** The players and their characters chart the uncharted, discover the world and its secrets, and find interesting, unique, and fantastical terrain and treasures.
+- **Combat:** The players and their characters strategically combat the threats of the world with violence; using powerful and incredible powers that they have and have not seen in fiction for themselves
+- **Social:** The players and their characters navigate complex social structures and interact with sapient and fantastical creatures in order to accomplish their goals and minimize threat and conflict (or to stir up trouble).
+- **Downtime:** The players and their characters partake in rest and recovery, as well as exchanging their treasures and riches for new ones of their taste
+
 ## Classless
 
 Classes are useful for their simplicity and standardization, but are often too rigid to fully encapsulate all manner of character ideas. Often times, one will squeeze a character into a class or set of classes that don't entirely fit or sometimes not even make narrative sense. Removing classes allows for a power system more piecemeal and more flexible to fit character builds more closely.

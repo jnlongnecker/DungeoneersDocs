@@ -185,7 +185,7 @@ You can instantly, trivially, and at will, recall the `shadow servants` into you
 ### Path to the Grave
 
 - Prerequisite: 5 `favor`
-- Tags: `Attack`
+- Tags: `Attack`, `Spell`
 - Range: 3
 - Area: Single
 - Cost: 1 `mana`
@@ -246,7 +246,7 @@ Your `statuses` ignore `undead` `immunities`.
 ### Force of Decay
 
 - Prerequisites: 10 `favor`
-- Tags: `Attack`
+- Tags: `Attack`, `Spell`
 - Range: 4
 - Area: Single
 - Cooldown: 3
@@ -262,7 +262,7 @@ Roll: `prowess` vs `defense`
 ### Wave of Decay
 
 - Prerequisites: 15 `favor`
-- Tags: `Attack`
+- Tags: `Attack`, `Spell`
 - Range: Self
 - Area: Cone `faith`
 - Cooldown: 10
@@ -391,23 +391,77 @@ At the site of an unspeakable evil or foul conduct, you perform a purification r
 - Range: Self
 - Area: Single
 
-You perform an illumination ritual, causing you to shed light for 1 hour.
+You perform an illumination ritual, causing you to shed `bright light` for 1 hour in an aura 10.
 
 ## Blessings
 
-### Favor 5
+### Blinding Flash
 
-### Favor 5
+- Prerequisites: 5 `favor`
+- Tags: `Attack`, `Spell`
+- Range: 3
+- Area: Single
+- Cost: 1 `mana`
 
-### Favor 5
+Roll: `control` vs `defense`
 
-### Favor 5
+- Success: Inflict `blind` 1d6
+- Critical: +1d6 `aggregate`
+
+### Bolstering Light
+
+- Prerequisites: 5 `favor`
+- Tags: `Interact`
+- Range: 3
+- Area: Circle 2
+- Cooldown: 1
+- Cost: 1 `mana`
+
+All `creatures` within the `area` gain `faith` `shield`.
+
+### Pierce the Dark
+
+- Prerequisites: 5 `favor`
+- Tags: `Interact`
+- Range: 5
+- Area: Circle `faith`
+
+The `area` is `brightly lit` and cannot be darkened for the remainder of the `procedure`.
+
+### Scorching Light
+
+- Prerequisites: 5 `favor`
+- Tags: `Attack`, `Spell`
+- Range: 3
+- Area: Circle 2
+- Cost: 2 `mana`
+
+Roll: `control` vs `defense`
+
+- Success: Inflict `burned` 1d6
+- Critical: +1d6 `aggregate`
+
+### Scalding Rebuke
+
+- Prerequisites: 10 `favor`
+- Tags: `Interact`, `Quick`, `Spell`
+- Range: Self
+- Area: Single
+- Cost: 4 `mana`
+
+Roll for a `total` using `faith`. For the rest of this `round`, all `creatures` who `attack` you are dealt that amount of `magic damage`.
 
 ### Favor 10
 
-### Favor 10
+### Sunspot
 
-### Favor 10
+- Prerequisites: 10 `favor`
+- Tags: `Attack`, `Spell`
+- Range: Self
+- Area: Aura `faith`
+- Cost: 3 `mana`
+
+You emit `blinding light` for 2 `rounds`.
 
 ### Favor 15
 
