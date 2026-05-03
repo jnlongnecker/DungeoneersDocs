@@ -9,15 +9,19 @@
 | Restoration   | Healing             | Mana restore/apologies   |
 | Protection    | Defending hits      | Willpower                |
 
-Each has a capability associated depending on the procedure:
+Each round, each creature can activate actions granted by an attribute. Only 1 action per group can be activated.
+
+- Destruction & Restoration
+- Protection & Transposition
+- Manipulation & Transmutation
 
 Destruction
 
-Deal physical / magical damage
+Roll to hit, then deal physical (body) or magical damage (soul)
 
 Transmutation
 
-Apply buff / deal status damage
+Roll to hit, then apply physical status damage (body) or apply soul status damage (soul)
 
 Manipulation
 
@@ -25,15 +29,15 @@ Use an item
 
 Transposition
 
-Move / increase range
+Move (body) or increase range (soul)
 
 Restoration
 
-Restore stamina / mana
+Restore stamina (body) or mana (soul)
 
 Protection
 
-Apply damage / status shield
+Grant a damage shield (body) or status damage shield (soul)
 
 ---
 

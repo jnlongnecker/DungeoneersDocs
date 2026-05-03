@@ -8,9 +8,9 @@ While status defense is above 0, any status effects don't take effect. When redu
 
 Creatures have status defense equal to the sum of both their protection scores.
 
-# Status
+# Debuff
 
-A status is a malady that persists over time. Temporary statuses get removed at the end of a procedure.
+A debuff is a status that persists over time. Temporary debuffs get removed at the end of a procedure.
 
 ## Severity
 
